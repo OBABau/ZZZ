@@ -1,5 +1,18 @@
 # Frontend
 
+Vite + React + Tailwind CSS + DaisyUI starter.
+
+Commands:
+
+Install dependencies:
+
+npm install
+
+Run dev server:
+
+npm run dev
+# Frontend
+
 React application with Vite and DaisyUI.
 
 ## Setup

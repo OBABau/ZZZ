@@ -1,3 +1,18 @@
+export default function App() {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-base-200">
+      <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card-body">
+          <h2 className="card-title">ZZZ Frontend</h2>
+          <p>React + Vite + Tailwind CSS + DaisyUI starter</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-primary">Get started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
 function App() {
   return (
     <div className="min-h-screen bg-base-200">

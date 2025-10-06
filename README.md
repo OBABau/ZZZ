@@ -1,65 +1,27 @@
 # ZZZ
 
-Full-stack application with Node.js backend API and React frontend with DaisyUI.
+Base skeleton for a full-stack app:
 
-## Project Structure
+- Backend: Django + Django REST Framework
+- Frontend: React + Vite + Tailwind CSS + DaisyUI
 
-```
-.
-├── backend/          # Node.js Express API
-└── frontend/         # React + Vite + DaisyUI application
-```
+This repository has been reset to a minimal starter layout. Use the folders `backend/` and `frontend/` to begin development.
 
-## Quick Start
+Quick start (developer):
 
-### Backend API
+Backend (Python & Django):
 
-```bash
-cd backend
-npm install
-cp .env.example .env
-npm run dev
-```
+1. Create a Python virtual environment and activate it.
+2. cd backend
+3. pip install -r requirements.txt
+4. python manage.py migrate
+5. python manage.py runserver
 
-The API will run on `http://localhost:3000`
+Frontend (Node & Vite):
 
-### Frontend
+1. cd frontend
+2. npm install
+3. npm run dev
 
-```bash
-cd frontend
-npm install
-cp .env.example .env
-npm run dev
-```
-
-The frontend will run on `http://localhost:5173`
-
-## Documentation
-
-- [Backend Documentation](./backend/README.md)
-- [Frontend Documentation](./frontend/README.md)
-
-## Tech Stack
-
-### Backend
-- Node.js
-- Express.js
-- CORS
-- dotenv
-
-### Frontend
-- React
-- Vite
-- Tailwind CSS
-- DaisyUI
-
-## Development
-
-Both projects can run simultaneously. Make sure to:
-1. Start the backend first on port 3000
-2. Start the frontend on port 5173
-3. The frontend is configured to communicate with the backend API
-
-## Environment Variables
-
-Both projects require environment variables. Copy the `.env.example` files to `.env` in each directory and configure as needed.
+Notes:
+- This is a minimal scaffold. Update SECRET_KEY, environment variables and production settings before deploying.
