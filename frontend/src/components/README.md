@@ -1,0 +1,1 @@
+Carpeta para componentes reutilizables. Añade aquí tus componentes React.

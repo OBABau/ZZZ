@@ -1,27 +1,26 @@
-# ZZZ
+# Proyecto DRF + React
 
-Base skeleton for a full-stack app:
+Plantilla inicial para un proyecto con backend en Django + Django REST Framework y frontend en React (Vite) usando Tailwind + DaisyUI.
 
-- Backend: Django + Django REST Framework
-- Frontend: React + Vite + Tailwind CSS + DaisyUI
+Estructura creada:
 
-This repository has been reset to a minimal starter layout. Use the folders `backend/` and `frontend/` to begin development.
+- backend/  -> proyecto Django + DRF (configuración mínima, app `health` con endpoint de salud)
+- frontend/ -> app React con Vite, Tailwind y DaisyUI, ejemplo de llamada al endpoint de salud
 
-Quick start (developer):
+Siguientes pasos (Windows PowerShell):
 
-Backend (Python & Django):
+Backend:
 
-1. Create a Python virtual environment and activate it.
-2. cd backend
+1. cd backend
+2. python -m venv .venv; .\.venv\Scripts\Activate
 3. pip install -r requirements.txt
 4. python manage.py migrate
 5. python manage.py runserver
 
-Frontend (Node & Vite):
+Frontend:
 
 1. cd frontend
 2. npm install
 3. npm run dev
 
-Notes:
-- This is a minimal scaffold. Update SECRET_KEY, environment variables and production settings before deploying.
+Notas: DaisyUI es una buena opción si quieres componentes rápidos estilo Tailwind sin construirlos desde cero. Es ligera y encaja bien con proyectos que usan Tailwind; si necesitas componentes altamente personalizados o un diseño corporativo muy específico, quizá prefieras una librería con más componentes pre-hechos (por ejemplo Material UI). Para una app que tendrá web, móvil y wearable, DaisyUI + Tailwind facilita crear interfaces responsivas y pequeñas.
